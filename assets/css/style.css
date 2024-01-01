@@ -1,0 +1,261 @@
+@font-face {
+    font-family: cairo-regular;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: junge-regular;
+    src: url(../fonts/Junge-Regular.ttf);
+}
+body p,h2 {
+    font-family: junge-regular;
+}
+.font-cairo{
+    font-family: cairo-regular;
+}
+.font-roboto{
+    font-family: roboto-regular;
+}
+.textPrimary{
+    color: #114060;
+}
+.textDark{
+    color: #000000;
+}
+.textLightPrimary{
+    color: #005B98;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.bgSecondary{
+    background-color: #E8E8E8;
+}
+/* ========================================= */
+header{
+    padding: 22px;
+}
+.learn-more{
+    background: url(../images/home.png) no-repeat;
+    height: 578px;
+    background-size: cover;
+    background-position: bottom;
+    font-family: jung-regular;
+}
+.learn-more h1{
+    font-size: 35px;
+}
+.learn-more p{
+    font-size: 19px;
+}
+.text-between-lines {
+    position: relative;
+    text-align: center;
+}
+.text-between-lines::after {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    margin-right: -100%;
+    margin-left: 16px;
+    border-top: 1px solid #9B9B9B;
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    height: 2px;
+    background-color: #9B9B9B;
+}
+.text-between-lines::before {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    margin-left: -50px;
+    border-top: 1px solid #9B9B9B;
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    height: 2px;
+    background-color: #9B9B9B;
+}
+.learn-more .btn-learn{
+    background-color: #005B98;
+    color: #FFFFFF;
+    height: 50px;
+    font-family: roboto-regular;
+    width: 286px;
+    height: 72px;
+    margin-top: 300px;
+    font-size: 14px;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+}
+.learn-more .arrow-right{
+    width: 22px;
+}
+.card .card-body .card-title{
+    font-family: jung-regular;
+    color: #005B98;
+}
+.card .card-body .card-text{
+    font-size: 14px;
+    font-family: roboto-regular;
+}
+.card-investment{
+    height: 457px;
+}
+.card-years h4{
+    font-size: 23px;
+    font-family: jung-regular;
+}
+.card-years p{
+    color: #626264;
+    font-size: 14px;
+}
+
+.items::-webkit-scrollbar {
+    height: 3px;
+}
+  
+  /* Track */
+.items::-webkit-scrollbar-track {
+    background: #cfcece; 
+}
+   
+  /* Handle */
+.items::-webkit-scrollbar-thumb {
+    background: #005B98; 
+}
+  
+  /* Handle on hover */
+.items::-webkit-scrollbar-thumb:hover {
+    background: #005B98; 
+}
+.item{
+    max-width: 22%;
+    flex: 1 0 100%;
+}
+
+/* ========================================== */
+.values{
+    background: url(../images/values.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.values p{
+    font-family: junge-regular;
+    font-size: 18px;
+}
+.values h3{
+    font-size: 39px;
+}
+.card .card-image{
+    height: 282px;
+}
+/* ======================================== */
+.sectors{
+    background: url(../images/steel.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.real-state{
+    background: url(../images/values.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 90%;
+}
+.sectors p{
+    font-family: junge-regular;
+    font-size: 14px;
+}
+.sectors h5{
+    font-family: junge-regular;
+    font-size: 18px;
+}
+.sectors h3{
+    font-size: 39px;
+}
+.sectors .values{
+    height: 400px;
+}
+/* ================================= */
+.closer-look{
+    font-family: junge-regular;
+}
+.closer-look h2{
+    font-size: 22px;
+}
+/* =================================== */
+.footer{
+    background-color: #072336;
+}
+.footer p{
+    font-family: roboto-regular;
+}
+@media screen and (max-width:500px){
+    header{
+        padding: 20px;
+    }
+    .font-size-13{
+        font-size: 13px;
+    }
+    .img-logo{
+        max-width: 117px;
+        max-height: 32px;
+    }
+    .img-menu{
+        max-width: 30px;
+        max-height: 9px;
+    }
+    .learn-more .btn-learn{
+        font-size: 12px;
+        height: 69px;
+    }
+    .card .card-body .card-text{
+        font-size: 12px;
+    }
+    .img-height-mobile{
+        height: 161px;
+    }
+    .img-med-height-mobile{
+        height: 146px;
+    }
+    .card-investment{
+        height: auto;
+    }
+    .values{
+        height: 432px;
+    }
+    .values h3,.sectors h3{
+        font-size: 29px;
+    }
+    .values p,.sectors h5{
+        font-size: 15px;
+    }
+    .sectors p{
+        font-size: 13px;
+    }
+    .item{
+        max-width: 85%;
+        flex: 1 0 100%;
+    }
+    .card .card-image{
+        height: 250px;
+    }
+    .real-state{
+        width: 92%;
+    }
+    .footer p{
+        font-size: 11px;
+    }
+}
+
