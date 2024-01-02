@@ -44,6 +44,22 @@ body p,h2 {
 header{
     padding: 22px;
 }
+.modal .modal-dialog{
+    max-width: 100%;
+    margin: 0;
+}
+.modal .modal-content{
+    background-color: #114060;
+    color: white;
+    height: 100vh;
+    font-family: roboto-regular;
+}
+.modal .modal-content .modal-body p{
+    font-family: roboto-regular;
+}
+.modal .modal-body{
+    width: 100%;
+}
 .learn-more{
     background: url(../images/home.png) no-repeat;
     height: 578px;
@@ -192,7 +208,7 @@ header{
     font-family: junge-regular;
 }
 .closer-look h2{
-    font-size: 22px;
+    font-size: 34px;
 }
 /* =================================== */
 .footer{
@@ -256,6 +272,9 @@ header{
     }
     .footer p{
         font-size: 11px;
+    }
+    .closer-look h2{
+        font-size: 22px;
     }
 }
 
